@@ -68,4 +68,22 @@ def odd_or_even(number):
         print("Odd")
 
 print(odd_or_even(number))
-    
+
+def factors():
+    number = int(input("Enter a number: "))
+
+    for i in range(1,number + 1):
+        if number % i == 0:
+            print(i)
+
+factors()
+
+def gcf(F,L):
+    greatest = 1
+
+    for i in range(1,F + 1):
+        if F % i == 0 and L % i == 0:
+            greatest = i
+
+    print(greatest)
+gcf(4,40)

@@ -29,15 +29,7 @@ for i in range(3):
         print("None")
 
 
-N = 0
-N + 1 = months
 
-total = X-S multipled by the amount of months 
-first = X
-transferred = X - S
-spent = S
-def total(X,S,N):
-    for month in months(N):
 
 
 
